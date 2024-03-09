@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(26, 23, 23);
+}
+
+div.maindiv {
+    /* background-color: rgb(231, 226, 216); */
+    background-image: url(images/bground.jpg);
+    width: 750px;
+    height: 710px;
+    margin: 0 auto;
+    /* padding-top: 10px; */
+}
+
+span.onecard {
+    /* background-color: rgb(240, 156, 11); */
+    height: 370px;
+    width: 400px;
+    margin-left: 15px;
+    /* padding-top: 5px; */
+}
+
+span.onecard>img {
+    height: 370px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(218, 233, 6);
+    /* margin-left: 15px; */
+    /* padding-top: 5px; */
+}
+
+/* div.twocard{
+    background-color: aquamarine;
+    height: 210px;
+    width: 250px;
+    margin-top: 10px;
+}
+div.twocard>img{
+    width: 250px;
+    height: 210px;
+    
+    
+}
+div.threecard{
+    background-color: aquamarine;
+    height: 210px;
+    width: 250px;
+    margin-top: 10px;
+    display: flex;
+} */
+/* span{
+    background-color: aqua;
+    height: 600px;
+    width: 600px;
+} */
+
+span>img {
+    height: 210px;
+    width: 200px;
+    margin-top: 15px;
+    padding: 15px;
+    margin-left: 12px;
+    box-shadow: 2px 2px 2px 2px #e7eb08;
+
+}
+
+img.twoimg {
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-position: left top;
+    height: 390px;
+    width: 220px;
+}
